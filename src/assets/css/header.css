@@ -1,0 +1,64 @@
+.header{
+    height: 72px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.17);
+    display: flex;
+}
+.header .MuiBox-root{
+    height: 100%;
+}
+.header .MuiBox-root .MuiGrid-root{
+    height: 100%;
+}
+.logo{
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.authbutton{
+    padding-top: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.jobBtn .MuiButtonBase-root{
+    border :1px solid rgba(0,0,0,0.14);
+    color: #14967B;
+}
+.jobBtn .MuiButtonBase-root:hover{
+    border: 1px solid rgba(0,0,0,0.14);
+}
+
+
+.signBtn .MuiButtonBase-root{
+    background-color: #14967B;
+    color: #fff;
+}
+.signBtn .MuiButtonBase-root{
+    background-color: #14967B;
+}
+.signBtn .MuiButton-root:hover{
+    background-color: #14967B;
+}
+
+
+.tabsMain{
+    height: 100%;
+    padding-left: 24%;
+}
+.tabsMain .MuiTabs-root{
+    height: 100%;
+}
+.active-tabs{
+    border-bottom: 1px solid #14967B;
+}
+.tabsMain .MuiTabs-flexContainer{
+    height: 100%;
+}
+.tabsMain .MuiTabs-root .MuiTabs-scroller .MuiTabs-flexContainer  .MuiButtonBase-root{
+    color: #14967B;
+    padding-bottom: 0px;
+}

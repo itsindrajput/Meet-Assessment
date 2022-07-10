@@ -1,0 +1,132 @@
+.Profile-main-card{
+    margin : auto;
+    height: 70vh;
+    width: 70vw;
+    margin: 40px auto auto auto;
+    border :1px solid hsla(0, 0%, 0%, 0.14);
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+}
+.candidate-image{
+    height: 100%;
+    width: 40%;
+
+}
+.candidate-image img{
+    height: 100%;
+    width: 100%;
+}
+.canddate-info{
+    max-height: 100%;
+    width: 60%;
+    margin-left:35px;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+    /* display: grid; */
+}
+.canddate-info::-webkit-scrollbar {
+    width: 7px;
+    /* background-color: #5BC2A8; */
+}
+
+
+
+.canddate-info::-webkit-scrollbar-thumb {
+    background-color: #5BC2A8;
+}
+.canddate-info .about p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 20px;
+
+    color: #232323;
+}
+.canddate-info .about p span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #232323;
+}
+.canddate-info .about p .MuiSvgIcon-root{
+    color : #5BC2A8;
+    height: 1.3rem;
+}
+.canddate-info .experience span{
+    color :#5BC2A8;
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 4.5px;
+}
+.canddate-info .experience .exper{
+    /* position: absolute; */
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.canddate-info .experience .total{
+    margin-left: 30px;
+    /* position: absolute; */
+    width: 76.71px;
+    height: 22.09px;
+    background: #5BC2A8;
+    border-radius: 4px;
+    color : #fff;
+    font-size: 15px;
+    padding: 2px;
+    text-align: center;
+}
+.canddate-info .experience .item{
+    margin-left: 20px;
+    display: grid;
+}
+.canddate-info .experience .item span{
+    color :#232323;
+    font-size: 14px;
+}
+.canddate-info .experience .item .area{
+    font-weight: 600;
+    font-style: normal;
+}
+.canddate-info .experience .item .company-name{
+    /* font-weight: 500; */
+}
+.canddate-info .experience .item .time{
+    font-weight: 100;
+    color:#232323;
+}
+
+.education{
+    margin-top: 10px;
+}
+.education span{
+    color :#5BC2A8;
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 4.5px;
+}
+.education .text{
+    /* position: absolute; */
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.education .details{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: grid;
+}
+.education .details span{
+    font-size: 14px;
+    color : #232323;
+    line-height: 20px;
+    margin :0;
+}
+.education .details .info{
+    font-weight: 600;
+}

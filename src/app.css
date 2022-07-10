@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: url("./assets/img/bg1.png");
+    background-color: #fcfcfc;
+    background-attachment: fixed;
+    background-size: cover;
+}

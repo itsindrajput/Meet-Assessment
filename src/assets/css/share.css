@@ -1,0 +1,26 @@
+.share-button{
+    /* background-color: #fff; */
+    /* position: absolute; */
+    left: 600px;
+    position: absolute;
+    bottom : 80px;
+    margin-left: 2rem;
+    background-color: #fff;
+    color: #5BC2A8;
+}
+@media only screen and (max-width: 600px) {
+    .share-button {
+        left: 140px;
+        bottom : 120px;
+        background-color: #fff;
+        color: #5BC2A8;
+    }
+  }
+.share-button .MuiButton-root{
+    color : #5BC2A8;
+    border: 1px solid #5BC2A8;
+}
+.share-button .MuiButton-root:hover{
+    border: 1px solid #5BC2A8;
+
+}
